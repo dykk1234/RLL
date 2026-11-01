@@ -1,6 +1,12 @@
 # RLL（Rouzhi Lite Launcher）
 
 轻量、安全的 Minecraft 启动器，使用 C# 5 + WinForms + .NET Framework 4.8 编写，单文件 exe，不需要安装 .NET SDK。采用左侧导航 + 卡片式布局，支持浅色 / 深色主题。
+<p align="center">
+  <img src="https://img.shields.io/github/license/dykk1234/RLL" alt="License GPL-3.0">
+  <img src="https://img.shields.io/github/v/release/dykk1234/RLL" alt="Release">
+  <img src="https://img.shields.io/github/stars/dykk1234/RLL" alt="Stars">
+  <img src="https://img.shields.io/github/languages/top/dykk1234/RLL" alt="Language">
+</p>
 
 ## 功能
 

@@ -251,7 +251,7 @@ node_modules/ 不存在         无第三方运行时依赖
 
 ## 安全说明
 
-详见 [SECURITY.md](SECURITY.md)。核心约束：
+详见 [SECURITY.md](RLL/SECURITY.md)。核心约束：
 
 - 只允许 HTTPS 和固定官方域名（Mojang / Fabric / Modrinth / GitHub Release 用于下载注入器），重定向逐跳校验；第三方认证服务器域名只有在用户添加预设或登录成功后才加入运行时白名单。
 - 所有远程下载必须带 SHA1 并通过校验；缺失 SHA1 时只允许从官方域名读取 `.sha1`；authlib-injector 官方 JAR 不提供哈希，自动下载仅限官方地址且限制 32MB，用户可改用本地已核验文件。

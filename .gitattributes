@@ -1,0 +1,10 @@
+# 行尾归一：项目是 Windows 独占的 PowerShell + csc 工程，
+# 脚本与 C# 源码固定 CRLF，文档固定 LF，二进制不参与转换。
+* text=auto
+*.ps1 text eol=crlf
+*.cs text eol=crlf
+*.manifest text eol=crlf
+*.md text eol=lf
+*.ico binary
+*.exe binary
+*.zip binary

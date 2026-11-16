@@ -1,0 +1,23 @@
+# 构建产物：dist 只保留发布包，build 全是编译与测试中间物
+/dist/
+/build/
+/temptest/
+*.exe
+*.pdb
+*.obj
+
+# 编译与运行日志
+*.log
+
+# 本地配置与凭证（绝不可入库）
+config.json
+download-tasks.json
+portable.txt
+/data/
+
+# 编辑器与系统垃圾
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

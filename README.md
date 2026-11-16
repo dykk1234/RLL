@@ -154,7 +154,7 @@ src/
   NavGlyphs.cs             导航栏矢量图标
   Program.cs               TLS、异常处理、DPI、入口
   app.manifest             asInvoker、DPI、长路径
-  app.ico                  程序图标（`tools\IconGen.cs` 代码绘制，仓库未附带）
+  app.ico                  程序图标
 tests/
   TestHarness.cs           单元测试与网络测试
   UiSmoke.cs               界面冒烟测试
